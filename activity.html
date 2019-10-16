@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NAWA FARM</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<nav>	
+    <ul>
+        <li><a href="#">nama</a>
+             <ul>
+                 <li><a href="login.html" onClick="return confirm ('Yakin?')">Logout</a></li>
+                 <li><a href="profil.html">profil</a></li>
+             </ul>
+        <li><a href="aboutus.html">Tentang</a></li>
+        <li><a href="partner.html">Mitra</a></li>
+        <li><a href="activity.html">Kegiatan</a>
+            <ul>
+                <li><a href="penanamankakao.html">Penanaman Kakao</a></li>
+                <li><a href="pengolahankakao.html">Pengolahan Kakao</a></li>
+            </ul>
+        </li>
+        <li><a href="healthy.html">Kesehatan Tanaman</a>
+            <ul>
+                <li><a href="healthy.html">Cara penanaman kopi</a></li>
+                <li><a href="tanamkakao.html">Pengolahan Kakao</a></li>
+                <li><a href="tanamtembakau.html">Pengolahan Tembakau</a></li>
+                <li><a href="tanamedamame.html">Pengolahan Edamame</a></li>
+            </ul>
+        <li><a href="sejarah.html">Sejarah</a></li>
+        <li><a href="beranda.html">Beranda</a></li>
+        <li<form>
+  		<input class="search" type="text" placeholder="Cari..." required>	
+ 		<input class="button" type="button" value="Cari">		
+		</form>></li>
+        <li><a href="beranda.html">NAWA FARM</a></li>
+    </ul>
+	</nav>
+</head>
+<body>
+<h1>KEGIATAN NAWA FARM</h1>
+<picture>
+<img src="olah edamame.jpg" alt="olah edamame" align="center"/><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<figcaption>pengolahan edamame</figcaption><br>
+<img src="petik tembakau.jpg" align="center"/><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<figcaption>pemetikan tembakau</figcaption><br>
+<img src="panen kopi.jpg" align="center"/><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<figcaption>pemanenan kopi</figcaption>
+</picture>  
+    <form id="formKomentar" method="POST" action="healthy.html">
+    <div>
+     <textarea name="komentar" rows="10" placeholder="Komentar"></textarea>
+    </div>
+ 
+    <div>
+      <script type="text/javascript">
+      function simsalabim() {
+      alert("komentar anda terkirim");
+      }
+      </script>
+      <button><a href="penanamankakao.html" onclick="simsalabim()">Tambahkan komentar</a></button>
+    </div>
+  </form>
+	<div id="footer">
+		<h5>nawafarm@gmail.com <br>
+		@nawafarm<br>
+        (0331)757130<br>
+        Cluster Tidar Asri, Blok D7, Sumbersari, Jember</h5>
+	</div>
+</body>
+</html>
